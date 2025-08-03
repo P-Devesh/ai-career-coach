@@ -1,9 +1,9 @@
 import streamlit as st
 import os
-from app.utils.gemini import ask_gemini
-from app.utils.pdf_parser import extract_text_from_pdf
-from app.utils.embeddings import embed_chunks
-from app.utils.vector_store import save_vectorstore, search_similar_chunks
+from utils.gemini import ask_gemini
+from utils.pdf_parser import extract_text_from_pdf
+from utils.embeddings import embed_chunks
+from utils.vector_store import save_vectorstore, search_similar_chunks
 
 
 st.markdown("""
