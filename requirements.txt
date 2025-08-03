@@ -4,3 +4,4 @@ pdfplumber
 python-docx
 sentence-transformers
 faiss-cpu
+python-dotenv
